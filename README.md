@@ -1,12 +1,56 @@
-# React + Vite
+# 📚 Online Library System (React + Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based Online Library System built using **Vite** and **Redux Toolkit**.  
+The application allows users to browse, search, and add books by category with a clean UI and dynamic routing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    ## Features
 
-## Expanding the ESLint configuration
+- 🏠 **Home Page**
+  - Welcome message
+  - Book categories list (Fiction, Non-Fiction, Mystery, etc.)
+  - Popular books with direct links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📚 **Browse Books**
+  - Filter books by category via dynamic route (`/books/:category`)
+  - Search bar to filter by **title** or **author**
+  - View details of each book
+
+- 📖 **Book Details**
+  - Shows title, author, description, and rating
+  - “Back to Browse” navigation
+
+- ➕ **Add Book**
+  - Form to add a new book with validation
+  - Book is stored in **Redux state**
+  - Redirects to Browse Books after submission
+
+-  **404 Page**
+  - Shown for any undefined route
+  - Includes a link back to Home
+
+---
+
+    ## Tech Stack
+
+- **React** (via Vite)
+- **React Router DOM** for navigation
+- **Redux Toolkit** for state management
+- **JavaScript** + simple CSS
+
+---
+
+##  Getting Started
+
+## Installation
+
+```bash
+npm install
+```
+
+---
+ ## GitHub Repository 
+ https://github.com/Rpriya-4/online-library
+ 
+
