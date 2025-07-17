@@ -15,10 +15,10 @@ The application allows users to browse, search, and add books by category with a
 - 📚 **Browse Books**
   - Filter books by category via dynamic route (`/books/:category`)
   - Search bar to filter by **title** or **author**
-  - View details of each book
+  -  Card View details of each book
 
 - 📖 **Book Details**
-  - Shows title, author, description, and rating
+  -  Card with title, author, description, and rating , category
   - “Back to Browse” navigation
 
 - ➕ **Add Book**
