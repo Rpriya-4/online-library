@@ -14,11 +14,11 @@
       description: "",
       rating: "",
       category: ""
-  });
+     });
 
     const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-  };
+    };
 
       const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,7 +26,7 @@
         if (!form.title || !form.author || !form.description || !form.rating || !form.category) {
       alert("Please fill all fields.");
       return;
-    }
+     }
 
        const newBook = {
       ...form,

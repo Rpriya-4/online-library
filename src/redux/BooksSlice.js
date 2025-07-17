@@ -1,12 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
-import books from "../data"; // initial dummy data
+import books from "../data";
 
 const booksSlice = createSlice({
   name: "books",
   initialState: books,
   reducers: {
     addBook: (state, action) => {
-      state.push(action.payload); // new book added to array
+      state.push(action.payload); 
     }
   }
 });

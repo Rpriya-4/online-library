@@ -11,11 +11,11 @@ const Navbar = () => {
     transition: "background-color 0.3s",
   };
   
-const linkHoverStyle = {
-  backgroundColor: "#2b7a78", // darker green on hover
-};
-return (
-    <nav style={{
+     const linkHoverStyle = {
+  backgroundColor: "#2b7a78", 
+       };
+  return (
+     <nav style={{
       background: "#8eb596",
       padding: "15px",
       display: "flex",
